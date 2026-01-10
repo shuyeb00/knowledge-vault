@@ -1,12 +1,25 @@
-#navbar{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+#navbar {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: white;
 }
-#navbar .logo{
+
+#navbar .logo {
     width: 139px;
     cursor: pointer;
 }
-.btn{
+
+.btn {
     width: 164px;
     height: 44px;
     background-color: #469165;
@@ -15,19 +28,113 @@
     border-radius: 8px;
     border: 0px;
 }
-.about-us .about-us-container{
+
+.btn:hover {
+    color: bisque;
+    transform: translateY(-2px);
+}
+
+.about-us .about-us-container {
     /* width: 298px; */
     display: flex;
     list-style: none;
     gap: 32px;
 }
 
-.about-us-container li a{
+.about-us-container li a {
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
     color: black;
 }
-.about-us-container li a:hover{
-    color: purple;
+
+.about-us-container li a:hover {
+    color: green;
+    transform: translateY(-2px);
+}
+
+#banner {
+    background-image: url('../assets/hero-bg.png');
+    height: 674px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-container {
+    width: 1360px;
+    height: 379px;
+    padding: 0 20px;
+}
+
+.early-access-btn {
+    padding: 8px 24px;
+    color: #469165;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+    border: 0px;
+}
+
+.early-access-btn:hover {
+    color: chocolate;
+    transform: translateY(-2px);
+}
+
+.banner-container h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.banner-container h1 .highlight {
+    color: #30B868;
+    display: block;
+}
+
+.banner-description {
+    width: 1360px;
+    height: 60px;
+    color: white;
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.vault-bnt,
+.see-btn {
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.vault-bnt {
+    background-color: #30B868;
+    color: white;
+    border: none;
+    margin-right: 12px;
+}
+
+.vault-bnt:hover {
+    background-color: #28a05a;
+    transform: translateY(-2px);
+}
+
+.see-btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid whitesmoke;
+}
+
+.see-btn:hover {
+    background-color: rgba(119, 136, 153, 0.24);
+    transform: translateY(-2px);
 }
