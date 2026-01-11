@@ -209,3 +209,63 @@
     border-radius: 50px;
     padding: 12px;
 }
+
+#solution-section {
+    width: 1360px;
+    margin: 100px auto;
+}
+
+.solution-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.solution-image {
+    width: 600px;
+}
+
+.solution-image img {
+    width: 100%;
+}
+
+.solution-content {
+    width: 600px;
+}
+
+.solution-content .small-title {
+    color: #469165;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.solution-content h1 {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #0b1b35;
+}
+
+.solution-content .description {
+    font-size: 16px;
+    line-height: 26px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.points {
+    list-style: none;
+}
+
+.points li {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #0b1b35;
+    background-image: url('../assets/CheckCircle.png');
+    background-repeat: no-repeat;
+    padding-left: 35px;
+}
+
