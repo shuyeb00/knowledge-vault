@@ -17,7 +17,7 @@
 #navbar .logo {
     width: 139px;
     cursor: pointer;
-}  
+}
 
 .btn {
     width: 164px;
@@ -31,7 +31,7 @@
 
 .btn:hover {
     color: bisque;
-    transform: translateY(-2px); 
+    transform: translateY(-2px);
 }
 
 .about-us .about-us-container {
@@ -182,9 +182,9 @@
     margin-top: 44px;
 }
 
-.card:hover{
+.card:hover {
     transform: translateY(-10px);
-    background-color:aliceblue;
+    background-color: aliceblue;
 }
 
 .card h3 {
@@ -321,4 +321,51 @@
     font-size: 14px;
     color: gray;
     margin-top: 10px;
+}
+
+#footer-section {
+    background-color: rgba(0, 25, 49, 1);
+    padding: 100px 170px 30px 170px;
+    color: white;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.footer-logo img {
+    height: 50px;
+}
+
+.social-links-container p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons img {
+    width: 24px;
+    cursor: pointer;
+}
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 30px;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
 }
