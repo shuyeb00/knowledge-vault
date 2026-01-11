@@ -70,7 +70,11 @@
 }
 
 .early-access-btn {
-    padding: 8px 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px 12px;
     color: #469165;
     background-color: white;
     cursor: pointer;
@@ -108,12 +112,15 @@
 
 .vault-bnt,
 .see-btn {
-    padding: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    border-radius: 5px;
     font-size: 16px;
     font-weight: 600;
-    border-radius: 5px;
-    border: 0px;
-    cursor: pointer;
+    padding: 16px;
 }
 
 .vault-bnt {
@@ -132,6 +139,10 @@
     background-color: transparent;
     color: white;
     border: 1px solid whitesmoke;
+}
+
+.btn-icon {
+    width: 20px;
 }
 
 .see-btn:hover {
